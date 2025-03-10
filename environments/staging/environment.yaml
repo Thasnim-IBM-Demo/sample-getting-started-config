@@ -25,6 +25,7 @@ app:
       value: "-DenvironmentType=stage"
     - name: MY_ENV
       value: "1"
+  endpoints: public
   # List of variables that can be referenced in server.xml
   # Liberty encrypted values are supported
   variables:
